@@ -197,6 +197,7 @@ body{
     max-width: 306px;
     border: 1px solid #E3E3E3;
     padding: 16px;
+    box-shadow: 4px 4px 4em rgba(0, 0, 0, 0.08);
 }
 
 .about-me{
@@ -205,3 +206,35 @@ body{
 .about-me .fz-64{
     margin-bottom: 36px;
 }
+
+.contact{
+    background: linear-gradient(#050014, #01021E 89%);
+    padding: 96px 0;
+}
+.contact .d-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-text{
+    color: #fff;
+}
+.contact-text .fz-64:after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-image: url(../image/trending_flat_black_24dp\ 1.png);
+    vertical-align: middle;
+}
+
+.contact-social{
+    gap: 20px;
+}
+.social-link{
+    display: block;
+    width: 162px;
+    height: 162px;
+}
+
+
+
