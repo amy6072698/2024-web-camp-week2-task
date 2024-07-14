@@ -83,6 +83,11 @@ body{
     font-size: 128px;
 }
 
+.mb-4{
+    margin-bottom: 4px;
+}
+
+
 .btn{
     display: inline-block;
     padding: 12px 24px;
@@ -173,4 +178,30 @@ body{
 }
 .intro-imgs img:not(:last-child){
     margin-right: 24px;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    padding: 160px 0;
+}
+
+.about-experi,.about-me .fz-24{
+    color: #15161D;
+}
+.about-experi{
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.about-experi .experi-item{
+    max-width: 306px;
+    border: 1px solid #E3E3E3;
+    padding: 16px;
+}
+
+.about-me{
+    max-width: 526px;
+}
+.about-me .fz-64{
+    margin-bottom: 36px;
 }
