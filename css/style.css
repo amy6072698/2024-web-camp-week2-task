@@ -135,6 +135,42 @@ body{
     width: 24px;
     height: 24px;
     background-image: url(../image/arrow_outward.svg);
-    color: #fff;
     vertical-align: middle;
+}
+
+.intro{
+    background: url(../image/background-img.png) no-repeat center/cover;
+    padding: 160px 0;
+}
+.intro-content{
+    display: flex;
+}
+.intro-text{
+    max-width: 526px;
+    color: #fff;
+    margin-right: 24px;
+}
+
+.intro-text .decora:before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 98px;
+    background-image: url(../image/sparkle-sm.png);
+    margin-right: 16px;
+}
+.intro-text .decora:after{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 98px;
+    background-image: url(../image/sparkle-sm.png);
+    margin-left: 16px;
+}
+
+.intro-imgs{
+    display: flex;
+}
+.intro-imgs img:not(:last-child){
+    margin-right: 24px;
 }
