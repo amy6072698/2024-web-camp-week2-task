@@ -51,6 +51,11 @@ table {
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+    height: auto;
+}
+
 body{
     font-family: "Bruno Ace SC", sans-serif;
     line-height: 1.5;
@@ -59,4 +64,77 @@ body{
 .container{
     max-width: 1296px;
     margin: 0 auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.fz-20{
+    font-size: 20px;
+}
+.fz-24{
+    font-size: 24px;
+}
+.fz-64{
+    font-size: 64px;
+}
+.fz-128{
+    font-size: 128px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 99em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header{
+    background-color: #000;
+}
+.nav{
+    padding: 40px 0;
+}
+.nav ul{
+    justify-content: space-between;
+}
+.nav .nav-link{
+    display: block;
+    max-width: 278.5px;
+    color: #D1D1D1;
+    text-decoration: none;
+}
+
+.banner{
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+.banner .d-flex{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-text{
+    margin-left: 24px;
+    color: #fff;
+    text-align: right;
+}
+.banner-text .fz-64{
+    text-align: left;
+}
+.banner-text .title{
+    color: #00FFA3;
+}
+.banner-text .btn:after{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../image/arrow_outward.svg);
+    color: #fff;
+    vertical-align: middle;
 }
