@@ -295,6 +295,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: #15161D;
 }
 .inner-top-text .btn:after{
     content: '';
@@ -303,4 +304,11 @@ body{
     height: 24px;
     background-image: url(../image/arrow_outward-white.svg);
     vertical-align: middle;
+}
+
+.footer{
+    background-color: #000;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
 }
