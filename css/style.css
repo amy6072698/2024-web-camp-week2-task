@@ -91,12 +91,19 @@ body{
 .btn{
     display: inline-block;
     padding: 12px 24px;
-    background-color: #fff;
-    color: #000;
     border-radius: 99em;
     text-decoration: none;
     cursor: pointer;
 }
+.btn-white{
+    background-color: #fff;
+    color: #000;
+}
+.btn-black{
+    background-color: #000;
+    color: #fff;
+}
+
 
 .header{
     background-color: #000;
@@ -236,5 +243,64 @@ body{
     height: 162px;
 }
 
+.row{
+    display: flex;
+    margin: 0 -12px;
+}
+.col-3{
+    width: 25%;
+    padding: 0 12px;
+}
+.col-4{
+    width: 33.3333%;
+    padding: 0 12px;
+}
+.col-8{
+    width: 66.6666%;
+    padding: 0 12px;
+}
+.col-9{
+    width: 75%;
+    padding: 0 12px;
+}
+.col-38{
+    width: 37.5%;
+    padding: 0 12px;
+}
+.col-58{
+    width: 62.5%;
+    padding: 0 12px;
+}
 
 
+.project{
+    padding: 160px 0;
+}
+.project .title{
+    max-width: 746px;
+    margin-bottom: 16px;
+    margin-left: 550px;
+}
+.project .inner-top{
+    margin-bottom: 28px;
+}
+.project img{
+    display: block;
+    height: 100%;
+}
+.project .pic-left{
+    vertical-align: top;
+}
+.project .inner-top-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inner-top-text .btn:after{
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../image/arrow_outward-white.svg);
+    vertical-align: middle;
+}
