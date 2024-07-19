@@ -60,6 +60,12 @@ body{
     line-height: 1.5;
 }
 
+/* 已修正：觀察設計稿可以發現 a 標籤的樣式都沒有下底線，可直接對 a 標籤做清除，後續就不用逐一撰寫囉 */
+a{
+    text-decoration: none;
+    color: #D1D1D1;
+}
+
 .container{
     max-width: 1296px;
     margin: 0 auto;
@@ -91,9 +97,13 @@ body{
     display: inline-block;
     padding: 12px 24px;
     border-radius: 99em;
-    text-decoration: none;
     cursor: pointer;
 }
+/* 已修正：按鈕或連結都可以加入 hover 效果哦～ */
+.btn:hover{
+    opacity: 0.8;
+}
+
 .btn-white{
     background-color: #fff;
     color: #000;
@@ -113,12 +123,16 @@ body{
 .nav ul{
     justify-content: space-between;
 }
-.nav .nav-link{
-    display: block;
+.nav .nav-item{
     max-width: 278.5px;
     color: #D1D1D1;
-    text-decoration: none;
 }
+
+/* 已修正：按鈕或連結都可以加入 hover 效果哦～ */
+.nav .nav-item:hover a{
+    opacity: 0.8;
+}
+
 
 
 /* Banner */
@@ -208,7 +222,7 @@ body{
     max-width: 306px;
     border: 1px solid #E3E3E3;
     padding: 16px;
-    box-shadow: 4px 4px 4em rgba(0, 0, 0, 0.08);
+    box-shadow: 4px 4px 4rem 0 rgba(0, 0, 0, 0.08);
 }
 
 .about-me{
@@ -243,10 +257,14 @@ body{
 .contact-social{
     gap: 20px;
 }
-.social-link{
+
+/* 已修正：按鈕或連結都可以加入 hover 效果哦～ */
+.social-link img{
     display: block;
-    width: 162px;
-    height: 162px;
+    border-radius: 40px;
+}
+.social-link:hover img{
+    box-shadow: 0 0 16px 3px rgba(144,148,255,0.9), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 
